@@ -1,8 +1,13 @@
 {
     "id": "k8s-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Kubectl, Helm, and telepresence on Alpine",
     "description": "Installs latest version of kubectl, Helm, and telepresence",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "upgradePackages": "true"
+        }
+    },
     "capAdd": [
         "NET_ADMIN",
         "NET_BIND_SERVICE"

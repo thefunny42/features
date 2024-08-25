@@ -9,6 +9,8 @@ Install docker, helm, kubectl and optionally telepresence on alpine based images
 
 ``telepresence``: boolean, default to false.
 
+It will install ``ghcr.io/devcontainers/features/common-utils`` as a dependency.
+
 Release features
 ----------------
 
